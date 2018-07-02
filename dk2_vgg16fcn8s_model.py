@@ -15,7 +15,7 @@ Journal of Geoscience and Environment Protection, 6, 25-36. doi: 10.4236/gep.201
 '''
 
 
-def make_vgg16fcn8s_model(input_shape=(256,256),   # todo: CHANGE to your image sizes
+def make_vgg16fcn8s_model(input_shape=(256,256,3),   # (256,256,3) is for the tensorflow backend, (3,256,256) for Theano
                           num_classes=None,   # todo: CHANGE to your number of output classes
                           num_conv_filters=4096,  # in our papers we used 1024 and 512
                           use_bias=True,
