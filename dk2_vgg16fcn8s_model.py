@@ -9,7 +9,7 @@ If you use this code please cite:
 
 https://www.scirp.org/journal/PaperInformation.aspx?PaperID=84616
 
-Konovalov, A.D. , Hillcoat, S. , Williams, G. , Birtles, R. A., Gardiner, N., and Curnock, M. I. (2018) 
+Konovalov, D.A., Hillcoat, S., Williams, G. , Birtles, R. A., Gardiner, N., and Curnock, M. I. (2018) 
 Individual Minke Whale Recognition Using Deep Learning Convolutional Neural Networks. 
 Journal of Geoscience and Environment Protection, 6, 25-36. doi: 10.4236/gep.2018.65003
 '''
@@ -30,7 +30,7 @@ def make_vgg16fcn8s_model(input_shape=(256,256,3),   # (256,256,3) is for the te
 
     https://www.scirp.org/journal/PaperInformation.aspx?PaperID=84616
 
-    Konovalov, A.D. , Hillcoat, S. , Williams, G. , Birtles, R. A., Gardiner, N., and Curnock, M. I. (2018)
+Konovalov, D.A., Hillcoat, S., Williams, G. , Birtles, R. A., Gardiner, N., and Curnock, M. I. (2018) 
     Individual Minke Whale Recognition Using Deep Learning Convolutional Neural Networks.
     Journal of Geoscience and Environment Protection, 6, 25-36. doi: 10.4236/gep.2018.65003
 
