@@ -19,7 +19,7 @@ def make_vgg16fcn8s_model(input_shape=(256,256,3),   # (256,256,3) is for the te
                           num_classes=None,   # todo: CHANGE to your number of output classes
                           num_conv_filters=4096,  # in our papers we used 1024 and 512
                           use_bias=True,
-                          weight_decay=0,
+                          weight_decay=0.,
                           last_activation='softmax'  # or e.g. 'sigmoid'
                           ):
     '''
