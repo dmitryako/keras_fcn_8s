@@ -142,6 +142,7 @@ Konovalov, D.A., Hillcoat, S., Williams, G. , Birtles, R. A., Gardiner, N., and 
     # n.loss = L.SoftmaxWithLoss(n.score, n.label, loss_param=dict(normalize=False, ignore_label=255))
     score = Activation(last_activation)(upscore8)
 
-    model = Model(inputs=[in1], outputs=[score])
+    #model = Model(inputs=[in1], outputs=[score])  # OLD
+    model = Model(in1, score)
     model.summary()
     return model
